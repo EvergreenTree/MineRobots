@@ -13,9 +13,11 @@ Welcome to the **Hug-n-Play** project by Team **MineRobots**. Our solution featu
   <source src="https://changqingfu.com/pdf/hug_n_play_music.mp4" type="video/mp4">
 </video>
 
-[video](assets/hug_n_play_music.mp4)
 
-*Figure 1: MineRobot performing the "Hug" (grasp) and the intentional "Winning Dance" (shake) before handover.*
+[![Watch on YouTube](https://img.youtube.com/vi/ZWQNqGcDaM4/0.jpg)](https://youtu.be/ZWQNqGcDaM4)
+
+
+*Figure 1 ([video](assets/hug_n_play_music.mp4)): MineRobot performing the "Hug" (grasp) and the intentional "Winning Dance" (shake) before handover.*
 
 ### Submission Details
 *   **Team Name:** MineRobots
