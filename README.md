@@ -10,7 +10,7 @@
 Welcome to the **Hug-n-Play** project by Team **MineRobots**. Our solution features an SO-100 robot arm powered by AMD ROCm and Hugging Face LeRobot, trained to identify tools, "hug" them securely, and perform a celebratory "winning dance" upon successful retrieval.
 
 <video controls width="640">
-  <source src="assets/hug_n_play_music.mp4" type="video/mp4">
+  <source src="https://github.com/EvergreenTree/MineRobots/raw/refs/heads/main/assets/hug_n_play_music.mp4" type="video/mp4">
   This is the project video. Your browser does not support the video tag.
 </video>
 
