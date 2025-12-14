@@ -1,0 +1,50 @@
+{
+  "os":  "Linux-6.1.0-39-amd64-x86_64-with-glibc2.39",
+  "python":  "CPython 3.12.3",
+  "startedAt":  "2025-12-14T09:01:18.301292Z",
+  "args":  [
+    "--dataset.repo_id=cfu/minerobots-screwdriver",
+    "--steps=20000",
+    "--policy.type=act",
+    "--policy.pretrained_path=cfu/minerobots-ball-act-100k",
+    "--output_dir=outputs/train/minerobots_screwdriver_act_20k_0",
+    "--job_name=minerobots_screwdriver_act_20k_0",
+    "--policy.device=cuda",
+    "--wandb.enable=true",
+    "--policy.push_to_hub=true",
+    "--policy.repo_id=cfu/minerobots_screwdriver_act_20k_0"
+  ],
+  "program":  "/opt/venv/bin/lerobot-train",
+  "root":  "outputs/train/minerobots_screwdriver_act_20k_0",
+  "host":  "robotics-jupyter-launcher-3589",
+  "executable":  "/opt/venv/bin/python",
+  "cpu_count":  160,
+  "cpu_count_logical":  160,
+  "gpu":  "AMD Instinct MI300X VF",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "2162185003008",
+      "used":  "578889428992"
+    }
+  },
+  "memory":  {
+    "total":  "2029207175168"
+  },
+  "gpu_amd":  [
+    {
+      "id":  "0",
+      "uniqueId":  "0x809563f65e9bca65",
+      "vbiosVersion":  "113-M3000100-103",
+      "performanceLevel":  "auto",
+      "maxPower":  "750.0",
+      "series":  "AMD Instinct MI300X VF",
+      "model":  "0x74b5",
+      "vendor":  "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku":  "M3000100",
+      "sclkRange":  "500Mhz - 2100Mhz",
+      "mclkRange":  "900Mhz - 1300Mhz"
+    }
+  ],
+  "writerId":  "gu0vvmokds6i4pr5rnug30f4kdcgyd3u"
+}
